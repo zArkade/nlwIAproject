@@ -1,0 +1,37 @@
+#app {
+  /* app pega a div inteira */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > h1 {
+  /* pegando so o h1 */
+  color: #996dff;
+  margin: -2px;
+}
+
+#app > img {
+  /* pegando so o img */
+  width: 64px;
+}
+
+#app > h2 {
+  /* pegando so o h2 */
+  align-self: flex-start;
+  margin-top: 50px;
+}
+
+#app > p {
+  /* pegando so o h2 */
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+  margin-top: 5px;
+}
+
+#app .placeholder {
+  /* pegando so o placeholder, botao */
+  color: #7c7c8a;
+  user-select: none;
+}

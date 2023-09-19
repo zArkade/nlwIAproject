@@ -1,0 +1,19 @@
+body {  /* pegando todo o body */
+  margin: 0; /* margem */
+  padding: 0; /* distancia entre o conteudo de um elemento e suas bordas */
+
+  /* Cores */
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  
+  /* largura e altura */
+  width: 100%;
+  height: 100vh;
+
+  /* direcionamento na pagina */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+#form {
+  /* todo o form */
+  margin-top: 64px;
+  display: flex;
+  gap: 12px;
+}
+
+#form > input {
+  /* todo o input */
+  height: 48px;
+  width: 450px;
+  border: none;
+  color: #fff;
+  background-color: #202024;
+  border-radius: 5px;
+  padding: 0 12px;
+  font-size: 13px;
+}
+
+#form > input:focus {
+  /* todo o focus dentro do input */
+  outline: 2px solid #8257e5;
+}
+
+#form > input:valid {
+  /* todo o invalid dentro do input */
+  background-color: #202024;
+}
+
+#form > button {
+  /* todo o button */
+  height: 48px;
+  width: 48px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8257e5;
+  font-size: 160%;
+  cursor: pointer;
+}
